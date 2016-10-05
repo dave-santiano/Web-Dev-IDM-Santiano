@@ -1,0 +1,16 @@
+margin : length
+padding : length
+float: GIVE IT
+width : length
+height : length
+border : style  width  color
+
+
+p{
+ margin: 50px;
+ padding: 30px;
+ float: right;
+ width: 400px;
+ height: 200px;
+ border: 5px solid #006633;
+}
