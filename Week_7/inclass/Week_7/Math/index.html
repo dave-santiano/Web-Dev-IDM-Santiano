@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math 101</title>
+	<script type = "text/javascript">
+	// integer data types
+	// declaring 
+
+	function randomNumberGenerator(n){
+		var rn = Math.round(n*Math.random(n));
+		return rn;
+	}
+	var myRandomInt = randomNumberGenerator(1000);
+	// alert(myRandomInt);
+
+	function randomNumberRange(min, max){
+		var rn = Math.round(Math.random()*(max-min)+min);
+		return rn;
+	}
+
+	var rr = randomNumberRange(50,100);
+	alert(rr);
+
+	
+	</script>
+</head>
+<body>
+
+</body>
+</html>
